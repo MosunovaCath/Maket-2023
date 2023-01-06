@@ -62,7 +62,6 @@ a:-webkit-any-link {
 .number{
     color: #E3B873;
     width: 130px;
-    border-radius: nullpx;
     size: 11px;
 }
 .button{
@@ -287,6 +286,8 @@ a:-webkit-any-link {
     top: -650px;
     left: 620px;
     max-width: 100%;
+    width: 679px;
+    height: 482px;
 }
 .line{
     color: #E3B873;
@@ -1489,8 +1490,8 @@ a:-webkit-any-link {
     color: white;
     text-transform: uppercase;
     position: relative;
-    left: 200px;
-    top: 90px;
+    left: 330px;
+    top: 110px;
     
 }
 .container1-2{
@@ -1636,6 +1637,11 @@ a:-webkit-any-link {
     background-color: #181818;
     width: 1440px;
 }
+.secret-img{
+    position: relative;
+    top: -650px;
+    left: 620px;
+}
 @media (max-wight: 375px) {
     .hero{
         max-width: 375px;
@@ -1651,18 +1657,705 @@ a:-webkit-any-link {
 @media screen and (max-width: 1300px) {
         .header-ul-item{
             display: none;
-    }
+        }
+        .letter{
+            top: 620px;
+            left: 130px;
+        }
+        .C-letter{
+            top: 599px;
+            left: 136px;
+        }
+        .Inst{
+            top: 573px;
+            left: 190px;
+        }
+        .C-Inst{
+            top: 551px;
+            left: 197px;
+        }
+        .C-Inst-1{
+            top: 528px;
+            left: 200px;
+        }
+        .hero{
+            width: 375px;
+            height: 476px;
+        }
+        .title{
+            height: 60px;
+            width: 339px;
+        }
+        .title{
+            font-size: 23px;
+            line-height: 30px;
+            padding-left: 18px;
+            margin-top: -100px;
+        }
+        .header{
+            width: 375px;
+            height: 57px;
+        }
+        .logo{
+            padding-left: 15px;
+            font-size: 11px;
+            
+        }
+        .number{
+            width: 100px;
+            font-size: 11px;
+        }
+        .header-content{
+            height: 56px;
+        }
+        .subtitle{
+            height: 60px;
+            width: 339px;
+             font-size: 14px;
+            line-height: 30px;
+            padding-left: 18px;
+        }
+        .button-1{
+            height: 51px;
+            width: 338px;
+            margin-left: 18px;
+            margin-top: 50px;
+            border-radius: 0;
+        }
+        .window{
+            height: 51px;
+            width: 338px;
+            margin-left: 18px;
+            border-radius: 0;
+        }
 }
-@media screen {
+@media screen and (max-width: 1300px) {
+        .page2 {
+            width: 375px;
+            height: 1600px;
+            background-color: #131313;
+        }
+        .block2{
+            width: 375px;
+        }
+        .title-2{
+            padding-top: 50px;
+            font-size: 22px;
+        }
+        .subtitle-2{
+            width: 386px;
+            height: 76px;
+            padding-left: 32px;
+            padding-right: 32px;
+            font-size: 11px;
+            align-items: center;
+            line-height: 17px;
+        }
+        .paragraphs{
+            padding-left: 19px;
+            padding-top: 250px;
+        }
+        .secret-img{
+            left: 10px;
+            top: -660px;
+            padding: 10px;
+        }
+        .city{
+            font-size: 14px;
+        }
+        .apart{
+            font-size: 14px;
+            left: 190px;
+        }
+        .words{
+            width: 99px;
+            font-size: 11px;
+        }
+        .words-right{
+            font-size: 11px;
+            left: 190px;
+        }
+        .rep2{
+            font-size: 14px;
+            left: 190px;
+        }
+        .Control{
+            left: 90px;
+            top: -450px;
+        }
+        .cam{
+            left: 160px;
+            top: -430px;
+        }
+        .line{
+            left: 100px;
+            top: -460px;
+        }
+        .line1{
+            left: 220px;
+            top: -479px;
+        }
+        .stroy-2{
+            filter: brightness(20%);
+            position: relative;
+            top: -775px;
+            left: 18px;
+        }
+        .knock{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            top: -900px;
+            left: 165px;
+        }
+        .str{
+            position: relative;
+            top: -923px;
+            left: 176px;
+            border-top: 8px solid transparent;
+            border-left: 13px solid;
+            border-bottom: 8px solid transparent;
+        }
+        .thing2{
+            position: relative;
+            top: -800px;
+            left: 155px;
+        }
+        .textblock2{
+            width: 340px;
+            position: relative;
+            left: 20px;
+            top: -780px;
+            font-size: 11px;
+            color: white;
+        }
+        .name{
+            position: relative;
+            left: 20px;
+            top: -720px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .QName{
+            position: relative;
+            left: 20px;
+            top: -727px;
+            color: #FFFFFF;
+        }
+        .line_N{
+            position: relative;
+            left: 20px;
+            top: -730px;
+            background-color:rgb(129, 129, 129);
+            width: 340px;
+        }
+        .phone_1{
+            position: relative;
+            left: 20px;
+            top: -685px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        .phone_2{
+            position: relative;
+            left: 20px;
+            top: -690px;
+            color: #FFFFFF;
+        }
+        .line_P{
+            position: relative;
+            left: 20px;
+            top: -690px;
+            background-color:rgb(129, 129, 129);
+            width: 340px;
+        }
+        .first-checkbox-0{
+            position: relative;
+            top: -678px;
+            left: 20px;
+            color: #fff;
+        }
+        .text-1 {
+            color: #FFFFFF;
+        }
+        .Submit{
+            position: relative;
+            left: 18px;
+            top: -510px;
+            width: 340px;
+            height: 51px;
+        }
+        .page3{
+            width: 375px;
+            height: 1300px;
+            background-color: #131313;
+            margin: auto;
+            position: relative;
+            
+        }
+        .block2{
+            width: 375px;
+            height: 2030px;
+        }
+        .Types{
+            position: relative;
+            top: -485px;
+            left: 80px;
+            font-size: 22px;
+        }
+        .thing21{
+            position: relative;
+            top: -465px;
+            left: 103px;
+        }
+        .thing22{
+            position: relative;
+            top: -466px;
+            left: 208px;
+        }
+        .Instr{
+            position: relative;
+            top: -481px;
+            left: 163px;
+        }
+        .blue-wall{
+            position: relative;
+            top: -450px;
+        }
+        .red-wall{
+            position: relative;
+            top: -430px;
+        }
+        .green-wall{
+            position: relative;
+            top: -400px;
+        }
+        .block3{
+            width: 375px;
+            height: 1300px;
+        }
+        .gis-second{
+            position: relative;
+            left: 18px;
+            top: 110px;
+        }
+        .page4{
+            width: 375px;
+        }
+        .title-3{
+            position: relative;
+            top: -1780px;
+            text-align: center;
+            left: 15px;
+            font-size: 22px;
+            width: 320px;
+        }
+        .pic_page_4{
+            position: relative;
+            top: -1420px;
+            left: 18px;
+        }
+        .win-2{
+            width: 375px;
+            height: 445px;
+            position: relative;
+            background-color: #131313;
+            top: -1480px;
+            left: 0;
+        }
+        .name1-2 {
+            position: relative;
+            left: 10px;
+        }
+        .QName1-2 {
+            position: relative;
+            left: 10px;
+        }
+        .line_N-2 {
+            position: relative;
+            left: 10px;
+            width: 340px;
+        }
+        .phone_1-2 {
+            position: relative;
+            left: 10px;
+            top: 120px;
+        }
+        .phone_2-2 {
+            position: relative;
+            left: 10px;
+            top: 120px;
+        }
+        .line_P-2 {
+            position: relative;
+            left: 10px;
+            top: 120px;
+            width: 340px;
+        }
+        .que {
+            position: relative;
+            left: 10px;
+            top: 160px;
+        }
+        .iwant {
+            position: relative;
+            left: 10px;
+            top: 160px;
+        }
+        .line_Q {
+            position: relative;
+            left: 10px;
+            top: 160px;
+            width: 340px;
+        }
+        .first-checkbox{
+            left: 10px;
+            top: 125px;
+        }
+        .Submit-2{
+            position: relative;
+            left: 18px;
+            top: 300px;
+            width: 340px;
+        }
+}
+
+/*@media screen {
     .logo{
         padding-left: 100px;
         width: 300px;
     }
-}
+}*/
 @media screen and (max-width: 1300px) {
+    .Epil{
+        width: 329px;
+        height: 67px;
+        position: relative;
+        top: 610px;
+        text-transform: none;
+        left: 17px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .footer{
+        visibility: hidden;
+      display: none;
+    }
+    .page4{
+        visibility: hidden;
+      display: none;
+    }
+    .pic_pig{
+        visibility: hidden;
+        display: none;
+    }
+    .Dgis{
+        visibility: hidden;
+        display: none;
+    }
+    .txt-pig{
+        visibility: hidden;
+        display: none;
+    }
+    .first-checkbox-1{
+        visibility: hidden;
+        display: none;
+    }
+    .gis-End{
+        visibility: hidden;
+        display: none;
+    }
+    .Submit-1{
+        visibility: hidden;
+        display: none;
+    }
+    .ramka{
+        visibility: hidden;
+      display: none;
+    }
+    .name_ramka{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-Am{
+        visibility: hidden;
+      display: none;
+    }
+    .line_Am{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-Em{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-L{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-M{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-P{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-R{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-Sc{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-Me{
+        visibility: hidden;
+      display: none;
+    }
+    .name1{ visibility: hidden;
+        display: none;}
+    .QName1{ visibility: hidden;
+        display: none;}
+    .line_N-1{ visibility: hidden;
+        display: none;}
+
+    .menu-Hi{
+        visibility: hidden;
+      display: none;
+    }
+    .menu-El{
+        visibility: hidden;
+      display: none;
+    }
+    .p_1{
+        visibility: hidden;
+      display: none;
+    }
+    .O1{
+        visibility: hidden;
+      display: none;
+    }
+    .o1-text-long{
+        visibility: hidden;
+      display: none;
+    }
+    .O2{
+        visibility: hidden;
+      display: none;
+    }
+    .O2-text{
+        visibility: hidden;
+      display: none;
+    }
+    .o2-text-long{
+        visibility: hidden;
+      display: none;
+    }
+    .O3{
+        visibility: hidden;
+      display: none;
+    }
+    .O3-text{
+        visibility: hidden;
+      display: none;
+    }
+    .o3-text-long{
+        visibility: hidden;
+      display: none;
+    }
+    .image5 {
+        visibility: hidden;
+        display: none;
+    }
+    .image7 {
+        visibility: hidden;
+        display: none;
+    }
+    .image8 {
+        visibility: hidden;
+        display: none;
+    }
+    .image9 {
+        visibility: hidden;
+        display: none;
+    }
+    .O4{
+        visibility: hidden;
+      display: none;
+    }
+    .O4-text{
+        visibility: hidden;
+      display: none;
+    }
+    .o4-text-long{
+        visibility: hidden;
+      display: none;
+    }
+    .diz2{
+        visibility: hidden;
+      display: none;
+    }
+    .Over{
+        visibility: hidden;
+      display: none;
+    }
+    .h4{
+        visibility: hidden;
+      display: none;
+    }
+    .UL-2{
+        visibility: hidden;
+      display: none;
+    }
+    .price-2{
+        visibility: hidden;
+      display: none;
+    }
+    .text-pr-2{
+        visibility: hidden;
+        display: none; 
+    }
+    .Des{
+        visibility: hidden;
+        display: none; 
+    }
+    .h5{
+        visibility: hidden;
+        display: none; 
+    }
+    .UL-3{
+        visibility: hidden;
+        display: none; 
+    }
+    .price-3{
+        visibility: hidden;
+        display: none; 
+    }
+    .diz3{
+        visibility: hidden;
+        display: none; 
+    }
+    .text-pr-3{
+        visibility: hidden;
+        display: none; 
+    }
+    .diz1{
+        visibility: hidden;
+      display: none;
+    }
+    .Red{
+        visibility: hidden;
+      display: none;
+    }
+    .h3{
+        visibility: hidden;
+      display: none;
+    }
+    .price{
+        visibility: hidden;
+      display: none;
+    }
+    .text-pr{
+        visibility: hidden;
+      display: none;
+    }
+    .UL{
+        visibility: hidden;
+      display: none;
+    }
     .button{
       visibility: hidden;
       display: none;
+    }
+    .p_1{
+        visibility: hidden;
+      display: none;
+    }
+    .headlines{
+        visibility: hidden;
+        display: none;
+    }
+    .ROS{
+        visibility: hidden;
+        display: none;
+    }
+    .ROS2{
+        visibility: hidden;
+        display: none;
+    }
+    .thing{
+        visibility: hidden;
+        display: none;
+    }
+    .img{
+        visibility: hidden;
+        display: none;
+    }
+    .point{
+        visibility: hidden;
+        display: none;
+    }
+    .point2{
+        visibility: hidden;
+        display: none;
+    }
+    .point3{
+        visibility: hidden;
+        display: none;
+    }
+    .point4{
+        visibility: hidden;
+        display: none;
+    }
+    .point5{
+        visibility: hidden;
+        display: none;
+    }
+    .stroy{
+        visibility: hidden;
+        display: none;
+    }
+    .OTZ{
+        visibility: hidden;
+        display: none;
+    }
+    .clients{
+        visibility: hidden;
+        display: none;
+    }
+    .txt-1{
+        visibility: hidden;
+        display: none;
+    }
+}
+  
+  @media screen and (min-width: 1300px) {
+    .secret-img{
+        visibility: hidden;
+        display: none;
+    }
+    .stroy-2{
+        visibility: hidden;
+        display: none;
+    }
+    .blue-wall{
+        visibility: hidden;
+        display: none;
+    }
+    .red-wall{
+        visibility: hidden;
+        display: none;
+    }
+    .green-wall{
+        visibility: hidden;
+        display: none;
+    }
+    .pic_page_4{
+        visibility: hidden;
+        display: none;
+    }
+    .gis-second{
+        visibility: hidden;
+        display: none;
     }
   }
   
